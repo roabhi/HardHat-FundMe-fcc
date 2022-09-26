@@ -48,12 +48,12 @@ module.exports = {
         apiKey: ETHERSCAN_API_KEY,
     },
     gasReporter: {
-        enabled: false, //true to enable
+        enabled: true, //true to enable
         outputFile: "gas-report.txt",
         noColors: true,
         currency: "USD",
         coinmarketcap: COINMARKETCAP_API_KEY,
-        token: "MATIC",
+        token: "ETH",
     },
     namedAccounts: {
         deployer: {
